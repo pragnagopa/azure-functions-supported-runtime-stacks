@@ -12,7 +12,11 @@
                     {
                         "displayVersion": "",
                         "runtimeVersion": null,
-						"supportedFunctionsExtensionVersions": ["~1","~2","~3"],
+                        "supportedFunctionsExtensionVersions": [
+                            "~1",
+                            "~2",
+                            "~3"
+                        ],
                         "isDefault": true,
                         "minorVersions": [],
                         "applicationInsights": true,
@@ -41,7 +45,9 @@
                     {
                         "displayVersion": "12",
                         "runtimeVersion": "~12",
-						"supportedFunctionsExtensionVersions": ["~3"],
+                        "supportedFunctionsExtensionVersions": [
+                            "~3"
+                        ],
                         "isDefault": true,
                         "minorVersions": [],
                         "applicationInsights": true,
@@ -57,7 +63,10 @@
                     {
                         "displayVersion": "10",
                         "runtimeVersion": "~10",
-						"supportedFunctionsExtensionVersions": ["~2","~3"],
+                        "supportedFunctionsExtensionVersions": [
+                            "~2",
+                            "~3"
+                        ],
                         "isDefault": false,
                         "minorVersions": [],
                         "applicationInsights": true,
@@ -73,29 +82,16 @@
                     {
                         "displayVersion": "8",
                         "runtimeVersion": "~8",
-						"supportedFunctionsExtensionVersions": ["~1","~2"],
+                        "supportedFunctionsExtensionVersions": [
+                            "~1",
+                            "~2"
+                        ],
                         "isDefault": false,
                         "minorVersions": [],
                         "applicationInsights": true,
                         "appSettingsDictionary": {
                             "FUNCTIONS_WORKER_RUNTIME": "node",
                             "WEBSITE_NODE_DEFAULT_VERSION": "~8"
-                        },
-                        "siteConfigPropertiesDictionary": {},
-                        "isPreview": false,
-                        "isDeprecated": false,
-                        "isHidden": false
-                    },
-                    {
-                        "displayVersion": "6",
-                        "runtimeVersion": "~6",
-						"supportedFunctionsExtensionVersions": ["~1","~2"],
-                        "isDefault": false,
-                        "minorVersions": [],
-                        "applicationInsights": true,
-                        "appSettingsDictionary": {
-                            "FUNCTIONS_WORKER_RUNTIME": "node",
-                            "WEBSITE_NODE_DEFAULT_VERSION": "~6"
                         },
                         "siteConfigPropertiesDictionary": {},
                         "isPreview": false,
@@ -119,7 +115,10 @@
                     {
                         "displayVersion": "8",
                         "runtimeVersion": "1.8",
-						"supportedFunctionsExtensionVersions": ["~2", "~3"],
+                        "supportedFunctionsExtensionVersions": [
+                            "~2",
+                            "~3"
+                        ],
                         "isDefault": true,
                         "minorVersions": [],
                         "applicationInsights": true,
@@ -148,7 +147,10 @@
                     {
                         "displayVersion": "6",
                         "runtimeVersion": "~6",
-						"supportedFunctionsExtensionVersions": ["~2", "~3"],
+                        "supportedFunctionsExtensionVersions": [
+                            "~2",
+                            "~3"
+                        ],
                         "isDefault": true,
                         "minorVersions": [],
                         "applicationInsights": true,
@@ -179,7 +181,9 @@
                     {
                         "displayVersion": "7",
                         "runtimeVersion": "~7",
-						"supportedFunctionsExtensionVersions": ["~3"],
+                        "supportedFunctionsExtensionVersions": [
+                            "~3"
+                        ],
                         "isDefault": true,
                         "minorVersions": [],
                         "applicationInsights": true,
