@@ -12,8 +12,6 @@
                     {
                         "displayVersion": "3.1",
                         "supportedFunctionsExtensionVersions": [
-                            "~1",
-                            "~2",
                             "~3"
                         ],
                         "runtimeVersion": "dotnet|3.1",

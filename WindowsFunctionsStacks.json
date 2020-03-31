@@ -10,11 +10,9 @@
                 "dependency": null,
                 "majorVersions": [
                     {
-                        "displayVersion": "",
+                        "displayVersion": "3.1",
                         "runtimeVersion": null,
                         "supportedFunctionsExtensionVersions": [
-                            "~1",
-                            "~2",
                             "~3"
                         ],
                         "isDefault": true,
@@ -159,39 +157,6 @@
                         },
                         "siteConfigPropertiesDictionary": {
                             "PowerShellVersion": "~6"
-                        },
-                        "isPreview": false,
-                        "isDeprecated": false,
-                        "isHidden": false
-                    }
-                ],
-                "frameworks": [],
-                "isDeprecated": null
-            }
-        },
-        {
-            "id": null,
-            "name": "powershell",
-            "type": "Microsoft.Web/availableStacks?osTypeSelected=WindowsFunctions",
-            "properties": {
-                "name": "powershell",
-                "display": "Powershell Core",
-                "dependency": null,
-                "majorVersions": [
-                    {
-                        "displayVersion": "7",
-                        "runtimeVersion": "~7",
-                        "supportedFunctionsExtensionVersions": [
-                            "~3"
-                        ],
-                        "isDefault": true,
-                        "minorVersions": [],
-                        "applicationInsights": true,
-                        "appSettingsDictionary": {
-                            "FUNCTIONS_WORKER_RUNTIME": "powershell"
-                        },
-                        "siteConfigPropertiesDictionary": {
-                            "PowerShellVersion": "~7"
                         },
                         "isPreview": false,
                         "isDeprecated": false,
