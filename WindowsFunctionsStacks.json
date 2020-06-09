@@ -127,6 +127,23 @@
                         "isPreview": false,
                         "isDeprecated": false,
                         "isHidden": false
+                    },
+                    {
+                        "displayVersion": "11",
+                        "runtimeVersion": "11",
+                        "supportedFunctionsExtensionVersions": [
+                            "~3"
+                        ],
+                        "isDefault": true,
+                        "minorVersions": [],
+                        "applicationInsights": true,
+                        "appSettingsDictionary": {
+                            "FUNCTIONS_WORKER_RUNTIME": "java"
+                        },
+                        "siteConfigPropertiesDictionary": {},
+                        "isPreview": false,
+                        "isDeprecated": false,
+                        "isHidden": false
                     }
                 ],
                 "frameworks": [],
@@ -143,7 +160,7 @@
                 "dependency": null,
                 "majorVersions": [
                     {
-                        "displayVersion": "6",
+                        "displayVersion": "6.2",
                         "runtimeVersion": "~6",
                         "supportedFunctionsExtensionVersions": [
                             "~2",
@@ -157,6 +174,25 @@
                         },
                         "siteConfigPropertiesDictionary": {
                             "PowerShellVersion": "~6"
+                        },
+                        "isPreview": false,
+                        "isDeprecated": false,
+                        "isHidden": false
+                    },
+                    {
+                        "displayVersion": "7.0",
+                        "runtimeVersion": "~7",
+                        "supportedFunctionsExtensionVersions": [
+                            "~3"
+                        ],
+                        "isDefault": true,
+                        "minorVersions": [],
+                        "applicationInsights": true,
+                        "appSettingsDictionary": {
+                            "FUNCTIONS_WORKER_RUNTIME": "powershell"
+                        },
+                        "siteConfigPropertiesDictionary": {
+                            "PowerShellVersion": "~7"
                         },
                         "isPreview": false,
                         "isDeprecated": false,
