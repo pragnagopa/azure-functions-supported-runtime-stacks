@@ -156,7 +156,7 @@
             "type": "Microsoft.Web/availableStacks?osTypeSelected=WindowsFunctions",
             "properties": {
                 "name": "powershell",
-                "display": "Powershell Core",
+                "display": "PowerShell Core",
                 "dependency": null,
                 "majorVersions": [
                     {
