@@ -122,7 +122,9 @@
                         "appSettingsDictionary": {
                             "FUNCTIONS_WORKER_RUNTIME": "java"
                         },
-                        "siteConfigPropertiesDictionary": {},
+                        "siteConfigPropertiesDictionary": {
+                            "JavaVersion": "1.8"
+                        },
                         "isPreview": false,
                         "isDeprecated": false,
                         "isHidden": false
@@ -139,7 +141,9 @@
                         "appSettingsDictionary": {
                             "FUNCTIONS_WORKER_RUNTIME": "java"
                         },
-                        "siteConfigPropertiesDictionary": {},
+                        "siteConfigPropertiesDictionary": {
+                            "JavaVersion": "11"
+                        },
                         "isPreview": false,
                         "isDeprecated": false,
                         "isHidden": false
