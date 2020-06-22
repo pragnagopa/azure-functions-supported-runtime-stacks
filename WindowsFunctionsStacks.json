@@ -81,7 +81,6 @@
                         "displayVersion": "8",
                         "runtimeVersion": "~8",
                         "supportedFunctionsExtensionVersions": [
-                            "~1",
                             "~2"
                         ],
                         "isDefault": false,
