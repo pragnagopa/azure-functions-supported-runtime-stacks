@@ -58,7 +58,7 @@
             "type": "Microsoft.Web/availableStacks?osTypeSelected=WindowsFunctions",
             "properties": {
                 "name": ".Net Framework",
-                "display": "Net Framework",
+                "display": ".Net Framework",
                 "dependency": null,
                 "majorVersions": [
                     {
