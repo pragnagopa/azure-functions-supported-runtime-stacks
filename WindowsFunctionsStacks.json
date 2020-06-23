@@ -54,6 +54,37 @@
         },
         {
             "id": null,
+            "name": ".Net Framework",
+            "type": "Microsoft.Web/availableStacks?osTypeSelected=WindowsFunctions",
+            "properties": {
+                "name": ".Net Framework",
+                "display": ".Net Framework",
+                "dependency": null,
+                "majorVersions": [
+                    {
+                        "displayVersion": "4.7",
+                        "runtimeVersion": "4.7",
+                        "supportedFunctionsExtensionVersions": [
+                            "~1"
+                        ],
+                        "isDefault": true,
+                        "minorVersions": [],
+                        "applicationInsights": true,
+                        "appSettingsDictionary": {},
+                        "siteConfigPropertiesDictionary": {
+                            "Use32BitWorkerProcess": true
+                        },
+                        "isPreview": false,
+                        "isDeprecated": false,
+                        "isHidden": false
+                    }
+                ],
+                "frameworks": [],
+                "isDeprecated": null
+            }
+        },
+        {
+            "id": null,
             "name": "node",
             "type": "Microsoft.Web/availableStacks?osTypeSelected=WindowsFunctions",
             "properties": {
@@ -114,6 +145,25 @@
                         "appSettingsDictionary": {
                             "FUNCTIONS_WORKER_RUNTIME": "node",
                             "WEBSITE_NODE_DEFAULT_VERSION": "~8"
+                        },
+                        "siteConfigPropertiesDictionary": {
+                            "Use32BitWorkerProcess": true
+                        },
+                        "isPreview": false,
+                        "isDeprecated": false,
+                        "isHidden": false
+                    },
+                    {
+                        "displayVersion": "6",
+                        "runtimeVersion": "6.11.2",
+                        "supportedFunctionsExtensionVersions": [
+                            "~1"
+                        ],
+                        "isDefault": false,
+                        "minorVersions": [],
+                        "applicationInsights": true,
+                        "appSettingsDictionary": {
+                            "WEBSITE_NODE_DEFAULT_VERSION": "6.11.2"
                         },
                         "siteConfigPropertiesDictionary": {
                             "Use32BitWorkerProcess": true
