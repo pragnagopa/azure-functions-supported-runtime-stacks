@@ -223,7 +223,7 @@
                             "JavaVersion": "11",
                             "Use32BitWorkerProcess": true
                         },
-                        "isPreview": false,
+                        "isPreview": true,
                         "isDeprecated": false,
                         "isHidden": false
                     }
