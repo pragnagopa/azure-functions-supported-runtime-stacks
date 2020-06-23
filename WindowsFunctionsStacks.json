@@ -155,7 +155,7 @@
                     },
                     {
                         "displayVersion": "6",
-                        "runtimeVersion": "~6",
+                        "runtimeVersion": "6.11.2",
                         "supportedFunctionsExtensionVersions": [
                             "~1"
                         ],
@@ -163,7 +163,7 @@
                         "minorVersions": [],
                         "applicationInsights": true,
                         "appSettingsDictionary": {
-                            "WEBSITE_NODE_DEFAULT_VERSION": "~6"
+                            "WEBSITE_NODE_DEFAULT_VERSION": "6.11.2"
                         },
                         "siteConfigPropertiesDictionary": {
                             "Use32BitWorkerProcess": true
