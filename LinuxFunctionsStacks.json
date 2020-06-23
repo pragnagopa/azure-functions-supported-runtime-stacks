@@ -230,7 +230,7 @@
                             "Use32BitWorkerProcess": false,
                             "linuxFxVersion": "Java|11"
                         },
-                        "isPreview": false,
+                        "isPreview": true,
                         "isDeprecated": false,
                         "isHidden": false
                     }
