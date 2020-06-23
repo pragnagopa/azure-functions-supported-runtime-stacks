@@ -52,37 +52,37 @@
                 "isDeprecated": null
             }
         },
-		{
-			"id": null,
-			"name": ".Net Framework",
-			"type": "Microsoft.Web/availableStacks?osTypeSelected=WindowsFunctions",
-			"properties": {
-				"name": ".Net Framework",
-				"display": "Net Framework",
-				"dependency": null,
-				"majorVersions": [
-					{
-						"displayVersion": "4.7",
-						"runtimeVersion": "4.7",
-						"supportedFunctionsExtensionVersions": [
-							"~1"
-						],
-						"isDefault": true,
-						"minorVersions": [],
-						"applicationInsights": true,
-						"appSettingsDictionary": {},
-						"siteConfigPropertiesDictionary": {
-							"Use32BitWorkerProcess": true
-						},
-						"isPreview": false,
-						"isDeprecated": false,
-						"isHidden": true
-					}
-				],
-				"frameworks": [],
-				"isDeprecated": null
-			}
-		},
+        {
+            "id": null,
+            "name": ".Net Framework",
+            "type": "Microsoft.Web/availableStacks?osTypeSelected=WindowsFunctions",
+            "properties": {
+                "name": ".Net Framework",
+                "display": "Net Framework",
+                "dependency": null,
+                "majorVersions": [
+                    {
+                        "displayVersion": "4.7",
+                        "runtimeVersion": "4.7",
+                        "supportedFunctionsExtensionVersions": [
+                            "~1"
+                        ],
+                        "isDefault": true,
+                        "minorVersions": [],
+                        "applicationInsights": true,
+                        "appSettingsDictionary": {},
+                        "siteConfigPropertiesDictionary": {
+                            "Use32BitWorkerProcess": true
+                        },
+                        "isPreview": false,
+                        "isDeprecated": false,
+                        "isHidden": true
+                    }
+                ],
+                "frameworks": [],
+                "isDeprecated": null
+            }
+        },
         {
             "id": null,
             "name": "node",
