@@ -179,6 +179,39 @@
         },
         {
             "id": null,
+            "name": "custom",
+            "type": "Microsoft.Web/availableStacks?osTypeSelected=WindowsFunctions",
+            "properties": {
+                "name": "Custom",
+                "display": "Custom",
+                "dependency": null,
+                "majorVersions": [
+                    {
+                        "displayVersion": "Custom",
+                        "runtimeVersion": "Custom",
+                        "supportedFunctionsExtensionVersions": [
+                            "~3", "~2"
+                        ],
+                        "isDefault": true,
+                        "minorVersions": [],
+                        "applicationInsights": true,
+                        "appSettingsDictionary": {
+                            "FUNCTIONS_WORKER_RUNTIME": "custom"
+                        },
+                        "siteConfigPropertiesDictionary": {
+                            "use32BitWorkerProcess": true
+                        },
+                        "isPreview": false,
+                        "isDeprecated": false,
+                        "isHidden": false
+                    }
+                ],
+                "frameworks": [],
+                "isDeprecated": null
+            }
+        },
+        {
+            "id": null,
             "name": "java",
             "type": "Microsoft.Web/availableStacks?osTypeSelected=WindowsFunctions",
             "properties": {

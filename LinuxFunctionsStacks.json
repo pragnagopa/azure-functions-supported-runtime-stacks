@@ -187,6 +187,40 @@
         },
         {
             "id": null,
+            "name": "Custom",
+            "type": "Microsoft.Web/availableStacks?osTypeSelected=LinuxFunctions",
+            "properties": {
+                "name": "Custom",
+                "display": "Custom",
+                "dependency": null,
+                "majorVersions": [
+                    {
+                        "displayVersion": "custom",
+                        "runtimeVersion": null,
+                        "supportedFunctionsExtensionVersions": [
+                            "~2",
+                            "~3"
+                        ],
+                        "isDefault": false,
+                        "minorVersions": [],
+                        "applicationInsights": true,
+                        "appSettingsDictionary": {
+                            "FUNCTIONS_WORKER_RUNTIME": "custom"
+                        },
+                        "siteConfigPropertiesDictionary": {
+                            "use32BitWorkerProcess": false
+                        },
+                        "isPreview": false,
+                        "isDeprecated": false,
+                        "isHidden": false
+                    }
+                ],
+                "frameworks": [],
+                "isDeprecated": null
+            }
+        },
+        {
+            "id": null,
             "name": "java",
             "type": "Microsoft.Web/availableStacks?osTypeSelected=LinuxFunctions",
             "properties": {
