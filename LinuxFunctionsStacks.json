@@ -195,7 +195,7 @@
                 "dependency": null,
                 "majorVersions": [
                     {
-                        "displayVersion": "custom",
+                        "displayVersion": "Custom Handler",
                         "runtimeVersion": "",
                         "supportedFunctionsExtensionVersions": [
                             "~2",
