@@ -292,7 +292,7 @@
                             "use32BitWorkerProcess": true
                         },
                         "isPreview": false,
-                        "isDeprecated": false,
+                        "isDeprecated": true,
                         "isHidden": false
                     },
                     {
