@@ -176,7 +176,7 @@
                             "use32BitWorkerProcess": false,
                             "linuxFxVersion": "Python|3.8"
                         },
-                        "isPreview": true,
+                        "isPreview": false,
                         "isDeprecated": false,
                         "isHidden": false
                     }
