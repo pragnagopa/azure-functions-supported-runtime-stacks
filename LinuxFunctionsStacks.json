@@ -146,7 +146,7 @@
                             "~2",
                             "~3"
                         ],
-                        "isDefault": true,
+                        "isDefault": false,
                         "minorVersions": [],
                         "applicationInsights": true,
                         "appSettingsDictionary": {
@@ -176,7 +176,7 @@
                             "use32BitWorkerProcess": false,
                             "linuxFxVersion": "Python|3.8"
                         },
-                        "isPreview": false,
+                        "isPreview": true,
                         "isDeprecated": false,
                         "isHidden": false
                     }
