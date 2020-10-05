@@ -93,6 +93,26 @@
                 "dependency": null,
                 "majorVersions": [
                     {
+                        "displayVersion": "14",
+                        "runtimeVersion": "~14",
+                        "supportedFunctionsExtensionVersions": [
+                            "~3"
+                        ],
+                        "isDefault": true,
+                        "minorVersions": [],
+                        "applicationInsights": true,
+                        "appSettingsDictionary": {
+                            "FUNCTIONS_WORKER_RUNTIME": "node",
+                            "WEBSITE_NODE_DEFAULT_VERSION": "~14"
+                        },
+                        "siteConfigPropertiesDictionary": {
+                            "use32BitWorkerProcess": true
+                        },
+                        "isPreview": true,
+                        "isDeprecated": false,
+                        "isHidden": true
+                    },
+                    {
                         "displayVersion": "12",
                         "runtimeVersion": "~12",
                         "supportedFunctionsExtensionVersions": [
