@@ -229,7 +229,7 @@
                         },
                         "siteConfigPropertiesDictionary": {
                             "use32BitWorkerProcess": false,
-                            "linuxFxVersion": "custom|"
+                            "linuxFxVersion": ""
                         },
                         "isPreview": false,
                         "isDeprecated": false,
