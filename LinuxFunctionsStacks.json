@@ -231,7 +231,7 @@
                             "use32BitWorkerProcess": false,
                             "linuxFxVersion": ""
                         },
-                        "isPreview": true,
+                        "isPreview": false,
                         "isDeprecated": false,
                         "isHidden": false
                     }
