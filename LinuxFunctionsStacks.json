@@ -69,7 +69,7 @@
                         "supportedFunctionsExtensionVersions": [
                             "~3"
                         ],
-                        "isDefault": true,
+                        "isDefault": false,
                         "minorVersions": [],
                         "applicationInsights": true,
                         "appSettingsDictionary": {
