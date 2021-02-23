@@ -2,11 +2,11 @@
     "value": [
         {
             "id": null,
-            "name": "dotnet-isolated",
+            "name": "dotnet",
             "type": "Microsoft.Web/availableStacks?osTypeSelected=LinuxFunctions",
             "properties": {
-                "name": "dotnet-isolated",
-                "display": ".NET Core Isolated",
+                "name": "dotnet",
+                "display": ".NET Core",
                 "dependency": null,
                 "majorVersions": [
                     {
@@ -28,21 +28,7 @@
                         "isPreview": true,
                         "isDeprecated": false,
                         "isHidden": false
-                    }
-                ],
-                "frameworks": [],
-                "isDeprecated": null
-            }
-        },
-        {
-            "id": null,
-            "name": "dotnet",
-            "type": "Microsoft.Web/availableStacks?osTypeSelected=LinuxFunctions",
-            "properties": {
-                "name": "dotnet",
-                "display": ".NET Core",
-                "dependency": null,
-                "majorVersions": [
+                    },
                     {
                         "displayVersion": "3.1",
                         "runtimeVersion": "dotnet|3.1",
