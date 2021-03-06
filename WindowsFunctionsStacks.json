@@ -2,11 +2,11 @@
     "value": [
         {
             "id": null,
-            "name": "dotnet",
+            "name": "dotnet-isolated",
             "type": "Microsoft.Web/availableStacks?osTypeSelected=WindowsFunctions",
             "properties": {
-                "name": "dotnet",
-                "display": ".NET Core",
+                "name": "dotnet-isolated",
+                "display": ".NET Core Isolated",
                 "dependency": null,
                 "majorVersions": [
                     {
@@ -15,7 +15,7 @@
                         "supportedFunctionsExtensionVersions": [
                             "~3"
                         ],
-                        "isDefault": false,
+                        "isDefault": true,
                         "minorVersions": [],
                         "applicationInsights": true,
                         "appSettingsDictionary": {
@@ -28,7 +28,21 @@
                         "isPreview": true,
                         "isDeprecated": false,
                         "isHidden": false
-                    },
+                    }
+                ],
+                "frameworks": [],
+                "isDeprecated": null
+            }
+        },
+        {
+            "id": null,
+            "name": "dotnet",
+            "type": "Microsoft.Web/availableStacks?osTypeSelected=WindowsFunctions",
+            "properties": {
+                "name": "dotnet",
+                "display": ".NET Core",
+                "dependency": null,
+                "majorVersions": [
                     {
                         "displayVersion": "3.1",
                         "runtimeVersion": "3.1",
