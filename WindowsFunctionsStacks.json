@@ -353,7 +353,7 @@
                         "displayVersion": "7.0",
                         "runtimeVersion": "~7",
                         "supportedFunctionsExtensionVersions": [
-                            "~3"
+                            "~3", "~4"
                         ],
                         "isDefault": true,
                         "minorVersions": [],
