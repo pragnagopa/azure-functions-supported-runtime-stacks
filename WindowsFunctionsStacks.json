@@ -370,6 +370,26 @@
                         "isPreview": false,
                         "isDeprecated": false,
                         "isHidden": false
+                    },
+                    {
+                        "displayVersion": "7.2",
+                        "runtimeVersion": "7.2",
+                        "supportedFunctionsExtensionVersions": [
+                            "~4"
+                        ],
+                        "isDefault": false,
+                        "minorVersions": [],
+                        "applicationInsights": true,
+                        "appSettingsDictionary": {
+                            "FUNCTIONS_WORKER_RUNTIME": "powershell"
+                        },
+                        "siteConfigPropertiesDictionary": {
+                            "powerShellVersion": "7.2",
+                            "use32BitWorkerProcess": true
+                        },
+                        "isPreview": true,
+                        "isDeprecated": false,
+                        "isHidden": false
                     }
                 ],
                 "frameworks": [],
