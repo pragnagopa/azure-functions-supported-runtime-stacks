@@ -361,7 +361,7 @@
                         "displayVersion": "7.0",
                         "runtimeVersion": "PowerShell|7",
                         "supportedFunctionsExtensionVersions": [
-                            "~3"
+                            "~3", "~4"
                         ],
                         "isDefault": true,
                         "minorVersions": [],
