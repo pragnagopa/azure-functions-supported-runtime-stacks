@@ -130,7 +130,7 @@
                         "displayVersion": "14",
                         "runtimeVersion": "~14",
                         "supportedFunctionsExtensionVersions": [
-                            "~3"
+                            "~3", "~4"
                         ],
                         "isDefault": false,
                         "minorVersions": [],
@@ -278,7 +278,8 @@
                         "runtimeVersion": "1.8",
                         "supportedFunctionsExtensionVersions": [
                             "~2",
-                            "~3"
+                            "~3",
+                            "~4"
                         ],
                         "isDefault": true,
                         "minorVersions": [],
@@ -298,7 +299,8 @@
                         "displayVersion": "11",
                         "runtimeVersion": "11",
                         "supportedFunctionsExtensionVersions": [
-                            "~3"
+                            "~3",
+                            "~4"
                         ],
                         "isDefault": false,
                         "minorVersions": [],
@@ -353,7 +355,7 @@
                         "displayVersion": "7.0",
                         "runtimeVersion": "~7",
                         "supportedFunctionsExtensionVersions": [
-                            "~3"
+                            "~3", "~4"
                         ],
                         "isDefault": true,
                         "minorVersions": [],
@@ -366,6 +368,26 @@
                             "use32BitWorkerProcess": true
                         },
                         "isPreview": false,
+                        "isDeprecated": false,
+                        "isHidden": false
+                    },
+                    {
+                        "displayVersion": "7.2",
+                        "runtimeVersion": "7.2",
+                        "supportedFunctionsExtensionVersions": [
+                            "~4"
+                        ],
+                        "isDefault": false,
+                        "minorVersions": [],
+                        "applicationInsights": true,
+                        "appSettingsDictionary": {
+                            "FUNCTIONS_WORKER_RUNTIME": "powershell"
+                        },
+                        "siteConfigPropertiesDictionary": {
+                            "powerShellVersion": "7.2",
+                            "use32BitWorkerProcess": true
+                        },
+                        "isPreview": true,
                         "isDeprecated": false,
                         "isHidden": false
                     }

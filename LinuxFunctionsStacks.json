@@ -101,7 +101,7 @@
                         "displayVersion": "14",
                         "runtimeVersion": "Node|14",
                         "supportedFunctionsExtensionVersions": [
-                            "~3"
+                            "~3", "~4"
                         ],
                         "isDefault": false,
                         "minorVersions": [],
@@ -198,7 +198,8 @@
                         "runtimeVersion": "Python|3.7",
                         "supportedFunctionsExtensionVersions": [
                             "~2",
-                            "~3"
+                            "~3",
+                            "~4"
                         ],
                         "isDefault": true,
                         "minorVersions": [],
@@ -218,7 +219,8 @@
                         "displayVersion": "3.8",
                         "runtimeVersion": "Python|3.8",
                         "supportedFunctionsExtensionVersions": [
-                            "~3"
+                            "~3",
+                            "~4"
                         ],
                         "isDefault": true,
                         "minorVersions": [],
@@ -238,7 +240,8 @@
                         "displayVersion": "3.9",
                         "runtimeVersion": "Python|3.9",
                         "supportedFunctionsExtensionVersions": [
-                            "~3"
+                            "~3",
+                            "~4"
                         ],
                         "isDefault": false,
                         "minorVersions": [],
@@ -307,7 +310,7 @@
                         "displayVersion": "8",
                         "runtimeVersion": "Java|8",
                         "supportedFunctionsExtensionVersions": [
-                            "~3"
+                            "~3", "~4"
                         ],
                         "isDefault": true,
                         "minorVersions": [],
@@ -327,7 +330,7 @@
                         "displayVersion": "11",
                         "runtimeVersion": "Java|11",
                         "supportedFunctionsExtensionVersions": [
-                            "~3"
+                            "~3", "~4"
                         ],
                         "isDefault": false,
                         "minorVersions": [],
@@ -361,7 +364,7 @@
                         "displayVersion": "7.0",
                         "runtimeVersion": "PowerShell|7",
                         "supportedFunctionsExtensionVersions": [
-                            "~3"
+                            "~3", "~4"
                         ],
                         "isDefault": true,
                         "minorVersions": [],
@@ -372,6 +375,26 @@
                         "siteConfigPropertiesDictionary": {
                             "use32BitWorkerProcess": false,
                             "linuxFxVersion": "PowerShell|7"
+                        },
+                        "isPreview": true,
+                        "isDeprecated": false,
+                        "isHidden": true
+                    },
+                    {
+                        "displayVersion": "7.2",
+                        "runtimeVersion": "PowerShell|7.2",
+                        "supportedFunctionsExtensionVersions": [
+                            "~4"
+                        ],
+                        "isDefault": false,
+                        "minorVersions": [],
+                        "applicationInsights": true,
+                        "appSettingsDictionary": {
+                            "FUNCTIONS_WORKER_RUNTIME": "powershell"
+                        },
+                        "siteConfigPropertiesDictionary": {
+                            "use32BitWorkerProcess": false,
+                            "linuxFxVersion": "PowerShell|7.2"
                         },
                         "isPreview": true,
                         "isDeprecated": false,
